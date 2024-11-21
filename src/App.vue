@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { ref } from 'vue'
+import zhCn from 'element-plus/es/locale/lang/zh-cn'
 
-const currentLocale = ref('zh-cn')
+const currentLocale = ref(zhCn)
 </script>
 
 <template>
