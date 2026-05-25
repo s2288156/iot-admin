@@ -1,0 +1,57 @@
+.rcs-dashboard {
+  padding: 0;
+}
+
+.stat-row {
+  margin-bottom: 16px;
+}
+
+.stat-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.stat-card.total {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.stat-card.total .ant-statistic-title {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.stat-card.total .ant-statistic-content {
+  color: white;
+}
+
+.stat-card.working {
+  border-left: 4px solid #52c41a;
+}
+
+.stat-card.idle {
+  border-left: 4px solid #1890ff;
+}
+
+.stat-card.error {
+  border-left: 4px solid #f5222d;
+}
+
+.chart-row {
+  margin-bottom: 16px;
+}
+
+.chart-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.robot-list-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.task-queue-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
